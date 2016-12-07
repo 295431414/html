@@ -1,0 +1,49 @@
+#banner{background: rgb(226, 4, 89); margin-bottom: 50px;}
+
+.banner{position: relative;}
+
+.login{width: 300px; position: absolute;top: 70px; right: 108px; background: #fff; font-family: "microsoft yahei";}
+
+.login_wrap{padding: 20px 32px 10px 32px; font-family:'\5b8b\4f53';}
+
+.login_wrap_head{overflow: hidden; width: 100%; height: 40px; line-height: 40px; margin-bottom: 10px;}
+.login_wrap_head h1{font-size: 20px; font-weight: 700; color: #727171;}
+.login_wrap_head a{color: #3894ea;}
+.login_wrap_head a:hover{text-decoration: underline;}
+
+.login_wrap_error{width: 100%; text-align: center; color: #e23435; line-height: 18px; height: 18px; margin-bottom: 5px;
+display: inline-block; overflow: hidden;}
+
+.login_name{width: 100%; position: relative;}
+.accounts{}
+.accounts i{position: absolute; top: 10px; left: 8px; background: url(../img/login_icons_new.png) no-repeat; width: 16px; height: 18px;}
+.accounts input{padding: 10px 10px 10px 30px; border: 1px solid #c9c9c9;
+width: 194px; height: 18px; color: #333; font-size: 14px;}
+.login_name,.login_pass{position: relative;}
+.login_pass{margin-top: 20px}
+i.i_name{background-position: -25px -25px;}
+i.i_pass{background-position: -25px -48px;}
+
+.preservation{margin-top: 15px; line-height: 18px; height: 18px;}
+.preservation input{vertical-align: middle; margin-right: 3px;}
+
+.login_submit{width: 100%; margin-top: 20px; overflow: hidden;}
+.forget{margin: 13px 0 0 30px;}
+.forget:hover{cursor: pointer; color: #ec5051;}
+.login_submit input{width: 126px; font-size: 18px; color: #fff;font-family: "microsoft yahei";
+height: 40px; line-height: 30px; padding: 0 40px; border-radius: 5px; background: #ec5151;
+border: none; cursor: pointer;}
+
+.login_tripartite{margin-top: 25px; line-height: 22px; overflow: hidden;}
+.login_tripartite h4{font-weight: 400; color: #9fa0a0; font-family: "microsoft yahei"; font-size: 100%;}
+.login_tripartite li{float: left; margin: 4px 6px 0 0;}
+.login_tripartite li a{display:block; width: 24px; height: 24px; 
+background: url(../../img/public/ecsc_icon.png) no-repeat;}
+.login_tripartite li a.qq{background-position: -306px -307px;}
+.login_tripartite li a.qq:hover{ background-position:-306px -333px;}
+.login_tripartite li a.sina{background-position: -369px -307px;}
+.login_tripartite li a.sina:hover{ background-position:-367px -333px;}
+
+#foot{border-top: 1px solid #dcdcdc;}
+
+

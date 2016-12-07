@@ -1,0 +1,69 @@
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,form,input,button,textarea{margin:0;padding:0}
+body{ font:12px/150% Arial,Verdana,"\5b8b\4f53"; color: #666; background: #fff;}
+ul,li{list-style:none;}
+em,i{font-style: normal;}
+img{border:0; vertical-align: top;}
+table{border-collapse:collapse; border-spacing:0;}
+a{text-decoration:none; color: #666;}
+.fl{float: left;}
+.fr{float: right;}
+.clear:after{content: '';display: table; clear: both; height: 0; overflow: hidden;} 
+.w1200{width: 1200px; margin: 0 auto;}
+a:focus { outline: none!important;}
+input:focus{ border-color: red!important; outline:none!important; }
+
+#loding{width: 100%;height: 100%; display: none;}
+#loding_bg{position: fixed; top: 0; left: 0; bottom: 0; right: 0; background: #666; opacity: 0.4;}
+#loding_on{position: fixed; top: 45%; left: 50%; z-index: 1;}
+
+
+
+
+#foot{
+	border-top: 1px solid #dcdcdc;
+}
+#foot a{
+	color: #666;
+    display: inline-block;
+}
+
+.footer{
+	padding-top: 40px;
+	
+}
+
+.foot_link{
+	padding: 50px 0;
+	text-align: center;
+	font-family: "microsoft yahei";
+}
+
+.footer_ecscinfo{
+	text-align: center;
+    line-height: 25px;
+}
+
+.footer_ecscinfo a{
+	padding: 0 5px;
+    display: inline-block;
+}
+
+.foot_link b{
+	line-height: 25px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.foot_link b a{
+    padding: 0 5px;
+}
+
+.foot_link span{
+	color: #ec5051;
+}
+.footer_img{
+	padding-top: 10px;
+}
+.footer_img a{
+    padding: 0 5px;
+}

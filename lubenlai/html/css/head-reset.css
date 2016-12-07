@@ -1,0 +1,24 @@
+/* login-head */
+#head{
+	border-bottom: 1px solid #a3a3a3;
+}
+
+.header{
+	padding-top: 50px; 
+	height: 70px; 
+	line-height: 70px; 
+	font-family: "microsoft yahei";
+}
+
+.header b{
+	display: inline-block; 
+	margin:15px 0 0 27px; 
+	width: 330px; 
+	height: 35px;
+	background: url(../img/word.png) no-repeat;
+}
+
+.regist_login{
+	color: #3894ea;
+}
+/* end login-head */

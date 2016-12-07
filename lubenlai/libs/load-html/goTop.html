@@ -1,0 +1,23 @@
+<div class="go_top">
+			<ul>
+				<li class="shoop_cat">
+					<i></i>
+					<span>购物车</span>
+					<em>0</em>
+				</li>
+			</ul>
+			<a href="javascript:;">TOP</a>
+</div>
+<script type="text/javascript">
+	$(window).scroll(function(){
+		if($(this).scrollTop()>=200){
+			$('#go_top a').fadeIn().click(function(){
+				$('body,html').stop().animate({scrollTop:0},function(){
+					$('#go_top a').fadeOut();
+				});
+			});
+		}else{
+			$('#go_top a').fadeOut();
+		}
+	});
+</script>

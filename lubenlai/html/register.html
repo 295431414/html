@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	<link rel="stylesheet" type="text/css" href="css/head-reset.css"/>
+	<!-- frame -->
+	<link rel="stylesheet" type="text/css" href="../libs/font-awesome/css/font-awesome.min.css">
+	<script type="text/javascript" src="../libs/jquery/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="../libs/jquery-validation-1.15.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="../libs/jquery-validation-1.15.0/jquery.metadata.js"></script>
+	<script type="text/javascript" src="../libs/jquery-validation-1.15.0/messages_zh.js"></script>
+	<!-- js -->
+	<script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+<!-- head -->
+	<div id="head">
+		
+	</div>
+<!-- end head -->
+
+<!-- main -->
+	<div class="main clear w1200">
+		<div class="main_l fl">
+			<img src="img/register/regist-banner.jpg"/>
+		</div>
+		<div class="main_r fr">
+			<div class="main_r_wrap">
+				<ul class="tab_phone_email">
+					<li><a name="emails" class="hover" href="javascript:;">邮箱注册</a></li>
+					<li><a name="phones" href="javascript:;">手机注册</a></li>
+				</ul>
+				<form>
+					<div class="item">
+						<div class="item_text fl">
+							<input class="text" type="text" id="username" name="username" placeholder="用户名"/>
+							<i class="i_name"></i>
+						</div>
+						<label for="username"></label>
+					</div>
+
+				<!-- email -->
+					<div class="item email">
+						<div class="item_text fl">
+							<input class="text email" type="text" id="email" name="email" placeholder="邮箱地址"/>
+							<i class="i_email"></i>
+						</div>
+						<label for="email"></label>
+					</div>
+				<!-- end email -->
+				<!-- phone -->
+					<div class="item phone">
+						<div class="item_text fl">
+							<input class="text" type="text" id="phone" name="phone" placeholder="手机号码"/>
+							<i class="i_phone"></i>
+						</div>
+						<label for="phone"></label>
+					</div>
+				<!-- end phone -->
+
+					<div class="item">
+						<div class="item_text fl">
+							<input class="text" type="password" id="password" name="password" placeholder="设置密码"/>
+							<i class="i_password"></i>
+						</div>
+						<label for="password"></label>
+					</div>
+					<div class="item">
+						<div class="item_text fl">
+							<input class="text" type="password" id="passwords" name="passwords" placeholder="确认密码"/>
+							<i class="i_password"></i>
+						</div>
+						<label for="passwords"></label>
+					</div>
+
+				<!-- phone Verification -->
+					<div class="item phone">
+						<div class="item_text fl">
+							<input class="text" type="text" id="verification" name="verification" placeholder="输入右侧验证码"/>
+							<a id="ver_btn" class="ver_btn" href="javascript:;">123455</a>
+						</div>
+						<label for="verification"></label>
+					</div>
+				<!-- end Verification -->
+				<!-- Agreement -->
+					<div class="item agr">
+						<div class="item_text fl">
+							<input type="checkbox" id="agreement" checked="checked" name="agreement" placeholder="确认密码"/>
+						</div>
+						<label>阅读并同意《<a href="javascript:;">服务协议</a>》</label>
+					</div>
+				<!-- end Agreement -->
+					
+					<div class="item">
+						<div class="item_text fl">
+							<input class="btn" type="button" value="同意协议并注册" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<!-- end main -->
+
+<!-- foot -->
+	<div id="foot">
+		
+	</div>
+<!-- end foot -->
+<!-- loding -->
+	<div id="loding">
+		<div id="loding_bg"></div>
+		<div id="loding_on" class="fa fa-circle-o-notch fa-4x fa-spin"></div>
+	</div>
+</body>
+</html>

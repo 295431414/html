@@ -1,0 +1,73 @@
+.main{background: #c2c2c2; margin-top: 50px;}
+
+.main_main{padding: 40px;}
+
+.main_top{overflow: hidden; margin-bottom: 20px; height: 30px; line-height: 30px; font-weight: bold; font-size: 20px;}
+.main_top input{float: left; height: 30px; width: 30px; }
+.main_top label{float: left; margin-right: 50px; cursor: pointer; padding-left: 10px; height: 30px; line-height: 30px;}
+.main_top p{float: left; width: 500px; text-align: center; }
+.main_top span{float: left; width: 230px; text-align: center;}
+.main_top em{float: left; width: 230px; text-align: center;}
+
+.wraps{ position: relative; overflow: hidden;}
+.wraps input{float: left; width: 20px; height: 20px; margin-top: -10px; position: absolute; top: 50%; left: 5px;}
+.main_center img{ float: left; width: 100px; height: 100px; margin-left: 130px;}
+.main_center p{ word-break:break-all;float: left; width: 350px; margin-left: 15px; margin-right: 40px; font-size: 16px; color: #000; line-height: 30px;}
+.wraps div{float: left; width: 185px; padding-left: 45px;}
+.main_center div a{font-size: 28px; margin: 0 10px; text-align: center; float: left; width: 30px; height: 30px; line-height: 30px;
+}
+.main_center div a:hover{color: #ec5151;}
+.main_center div b{float: left; width: 30px; height: 30px; background: #f4f4f4;
+border: 0; text-align: center; line-height: 30px;}
+.main_center strong{float: left; width: 230px; text-align: center; font-size: 20px;}
+.wraps{margin-bottom: 20px; overflow: hidden;}
+
+.main_foot{overflow: hidden;}
+.main_foot_p{}
+.main_foot_p a,.foot_total a{display: block; padding: 0 30px; height: 30px; line-height: 30px; background: #ec5151;
+font-size: 18px; font-weight: bold; color: #fff; border-radius: 5px;}
+.main_foot_p a:hover{background: #09a800; }
+
+.foot_total{width: 300px; height: 30px; line-height: 30px;}
+.foot_total span{ font-size: 18px; font-weight: bold; }
+.foot_total span em{ font-weight: normal; }
+
+
+
+
+
+
+
+#guarantee{background: #ddd;}
+
+.guarantee{height: 86px; margin-top: 60px; font-family: "microsoft yahei";}
+.guarantee div{float: left; font-family: "microsoft yahei"; font-size: 18px; padding: 20px 0; margin-right: 135px;}
+.guarantee div i{display: block; width: 45px; height: 45px; background: url(../img/public/ecsc_icon.png) no-repeat;
+float: left;}
+.guarantee div span{display: block; float: left; padding: 15px 0 0 15px;}
+.guarantee i.zp{background-position: -7px -152px;}
+.guarantee i.bt{background-position: -7px -202px;}
+.guarantee i.hp{background-position: -7px -253px;}
+.guarantee i.sd{background-position: -6px -304px;}
+.guarantee i.qw{background-position: -6px -354px;}
+.guarantee .last{margin:0; }
+
+
+#foots{background: #000;}
+
+.foot_links{height: 125px; padding-top: 40px; margin: auto; text-align: left;}
+.foot_links dl{float: left; color: #ccc; margin-top: 5px; width: 215px; font-family: "microsoft yahei";}
+.foot_links dt{font-size: 16px; margin-bottom: 15px;}
+.foot_links dd{line-height: 22px;}
+.foot_links dd a{color: #8b8b8b;  padding-left: 15px;}
+.foot_links dd i{ }
+
+#foot{font-family: "microsoft yahei"; border: none;}
+
+
+
+
+
+body .a a:hover{
+	color: #ec5051 !important;
+}
